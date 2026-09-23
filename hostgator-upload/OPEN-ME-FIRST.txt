@@ -1,9 +1,9 @@
-karst-build:1
+karst-build:2
 
-If this file does not say karst-build:1, you opened an old zip.
+If this file does not say karst-build:2, you opened an old zip.
 
 Hero line:
-  Buy better. Then fix it.
+  A clear source. A cleaner buy.
 
 Mark:
   Gold K on a black square. Not a B.
