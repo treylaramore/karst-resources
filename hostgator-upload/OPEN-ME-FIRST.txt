@@ -1,12 +1,12 @@
-karst-build:2
+karst-build:3
 
-If this file does not say karst-build:2, you opened an old zip.
+If this file does not say karst-build:3, you opened an old zip.
 
 Hero line:
   A clear source. A cleaner buy.
 
 Mark:
-  Gold K on a black square. Not a B.
+  Gold K on a garnet square. Not a B.
 
 Extract this zip into public_html.
 Do not upload a wrapper folder if you want the site at the domain root.
