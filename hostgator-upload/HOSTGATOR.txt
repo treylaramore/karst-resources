@@ -1,0 +1,28 @@
+Upload the contents of this folder into public_html on HostGator.
+Do not upload the folder itself if you want the site at the domain root.
+Do not upload this HOSTGATOR.txt file.
+
+Files and folders:
+  index.html
+  services.html
+  sectors.html
+  record.html
+  start.html
+  contact.php
+  favicon.svg
+  css/site.css
+  js/site.js
+
+Before you announce the site:
+  1. Create the mailbox inquiries@karstresources.com in cPanel.
+  2. Open contact.php and confirm $to and $from match that mailbox.
+  3. Open start.html, send yourself one test from the form, and confirm it arrives.
+
+The pages are static except contact.php, which HostGator already runs.
+No database. No Node. No build step.
+
+A cold note can point at one part of the buy:
+  yourdomain.com/sectors.html#materials
+  yourdomain.com/sectors.html#freight
+  yourdomain.com/sectors.html#stock
+  yourdomain.com/sectors.html#contracts

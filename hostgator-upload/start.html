@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start — Karst Resources LLC</title>
+  <meta name="description" content="How a Karst audit starts. One sentence on what you buy. Half the fee up front. Two visits. You keep the list.">
+  <meta name="theme-color" content="#0B0908">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,620&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#contact">Skip to the form</a>
+  <header class="header">
+    <div class="stripe" aria-hidden="true"><span class="grow"></span><span class="gold"></span><span class="gap"></span><span class="pop"></span><span class="gap"></span><span class="gold"></span><span class="grow"></span></div>
+    <div class="header-bar">
+      <a class="brand" href="index.html"><svg viewBox="0 0 32 32" width="32" height="32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#0B0908"/><rect x="1.25" y="1.25" width="29.5" height="29.5" rx="5" fill="none" stroke="#CEB888" stroke-width="1.5"/><rect x="25.5" y="3.5" width="3" height="3" fill="#782F40"/><path d="M8 6h4.4v6.7L20.4 6h5L15.2 15.2 25.8 26h-5.2L12.4 17.6V26H8z" fill="#CEB888"/></svg> Karst Resources</a>
+      <nav class="desk" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="sectors.html">Scope</a>
+        <a href="record.html">Examples</a>
+        <a href="start.html" class="active">Start</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-gold hide-sm" href="#contact">Ask for the audit</a>
+        <button class="icon-btn" type="button" data-menu aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav" aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="sectors.html">Scope</a>
+      <a href="record.html">Examples</a>
+      <a href="start.html">Start</a>
+      <a class="btn btn-gold" href="#contact">Ask for the audit</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap page-hero">
+      <p class="kicker">How it starts</p>
+      <h1 class="display" style="font-size:clamp(2.6rem,7vw,4.8rem)">A short note.<br>Then the plant.</h1>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <ol class="steps">
+          <li class="step"><strong>You write</strong><span>Tell us what you buy and where it hurts. We reply with how the audit would run.</span></li>
+          <li class="step"><strong>We come twice</strong><span>Half the fee up front. We sit in the plant or the warehouse twice during the three weeks. You keep the list either way.</span></li>
+          <li class="step"><strong>Then, only if it pays</strong><span>The fix and the monthly lead are offered after the audit shows dollars. Not before.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section surface" id="contact">
+      <div class="wrap">
+        <p class="kicker">Contact</p>
+        <h2 class="display">Tell us the buy.</h2>
+        <p class="lede">Email <a href="mailto:inquiries@karstresources.com">inquiries@karstresources.com</a>, or use the form. If we have already been in touch, name the company.</p>
+        <p class="thanks" id="thanks" hidden>Received. We will reply to the email you entered.</p>
+        <form action="contact.php" method="post">
+          <label>Name
+            <input name="name" required maxlength="120" autocomplete="name">
+          </label>
+          <label>Work email
+            <input name="email" type="email" required maxlength="160" autocomplete="email">
+          </label>
+          <label>Company
+            <input name="company" required maxlength="160" autocomplete="organization">
+          </label>
+          <label>What you buy
+            <input name="sector" maxlength="80" placeholder="The material, the freight, or the contract">
+          </label>
+          <label>What you buy, and the problem in a sentence
+            <textarea name="message" required maxlength="2000"></textarea>
+          </label>
+          <label class="hp">Leave this empty
+            <input name="website" tabindex="-1" autocomplete="off">
+          </label>
+          <button class="btn btn-gold" type="submit">Send</button>
+        </form>
+        <p class="note">You will hear back from us directly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Karst Resources LLC · Florida · Jacksonville area</p>
+      <p><a href="mailto:inquiries@karstresources.com">inquiries@karstresources.com</a></p>
+      <p>Examples only. Your results will be your own.</p>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>

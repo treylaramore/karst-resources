@@ -1,0 +1,18 @@
+karst-build:1
+
+If this file does not say karst-build:1, you opened an old zip.
+
+Hero line:
+  Buy better. Then fix it.
+
+Mark:
+  Gold K on a black square. Not a B.
+
+Extract this zip into public_html.
+Do not upload a wrapper folder if you want the site at the domain root.
+Do not upload OPEN-ME-FIRST.txt or HOSTGATOR.txt if you do not want them on the server.
+
+Before you announce the site:
+  1. Create the mailbox inquiries@karstresources.com in cPanel.
+  2. Open contact.php and confirm the mailbox.
+  3. Send yourself one test from the form.
